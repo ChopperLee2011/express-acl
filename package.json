@@ -1,0 +1,22 @@
+{
+  "name": "express-acl",
+  "description": "Express ACL",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "main": "server/server.js",
+  "dependencies": {
+    "acl": "0.4.7",
+    "express": "3.4.8",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  }
+}
